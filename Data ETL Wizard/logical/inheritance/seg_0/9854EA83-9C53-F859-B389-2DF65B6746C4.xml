@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_6" directorySegmentName="seg_0" id="9854EA83-9C53-F859-B389-2DF65B6746C4">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 13:31:09 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>EE881C36-53AA-03EC-A8C5-AE0ED8915B79</sourceEntity>
+<targetEntity>31526D98-C856-F44D-8270-71D0529C04AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

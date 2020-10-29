@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="366D0392-6B64-70D4-193B-50C67FAE2256" name="ETL Wizards">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:29:24 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="etl_id" id="6F0F5CC1-9C14-001C-B089-02C40BFD5870">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:31:02 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FD888854-1E97-DA0C-DC4D-1B8E62DA4AAA">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:29:46 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<domain>21640F84-DDB8-CA1B-1FEE-96AEEC4B9381</domain>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="package_owner" id="185427B1-9D17-D095-E036-E29994A7A5D8">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-27 11:36:50 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>79363959-220D-4476-4730-5544AA4BF81A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validate_pkg" id="B5D91397-86F8-AD21-EBB8-9BABA3EADBF8">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:31:26 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<domain>79363959-220D-4476-4730-5544AA4BF81A</domain>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="convert_pkg" id="4B8497A5-E1E2-E7B5-EC1B-99AB0A84E602">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:32:01 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<domain>79363959-220D-4476-4730-5544AA4BF81A</domain>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assert_pkg" id="1847CABB-8550-6F90-39C9-DF558ADF309F">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:32:22 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<domain>79363959-220D-4476-4730-5544AA4BF81A</domain>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group_id" id="84DC5815-027A-66EA-3C82-8E234074EECE">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 15:15:13 UTC</createdTime>
+<generatorID>876510D4-97F9-44C5-8811-3EDDAF43E5EC</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<referedAttribute>A6CBBBAD-473B-792B-AE69-97598C4C99A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D700CB79-A82C-B7C1-6D15-F396575CD311" name="Data ETL Wizzards PK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:31:15 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F0F5CC1-9C14-001C-B089-02C40BFD5870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

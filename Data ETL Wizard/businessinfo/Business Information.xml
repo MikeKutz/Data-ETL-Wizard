@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F7D5C97F-855E-1EB0-54F9-F772DB3FCEA1">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:28:05 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

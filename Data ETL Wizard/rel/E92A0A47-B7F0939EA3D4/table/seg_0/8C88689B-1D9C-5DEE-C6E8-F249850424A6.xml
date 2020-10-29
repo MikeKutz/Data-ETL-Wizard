@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C88689B-1D9C-5DEE-C6E8-F249850424A6" name="runtime_values">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>F0A7F3D0-F315-B915-2EC5-504AD46A66C2</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="runtime_values_ID" id="7FAA2305-22B3-EB1E-CFD0-2A7739B2C0C3">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ETL_Function_Steps_ID" id="536E63A9-C1E1-0BA1-B1A3-2371B13842AA">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FBE0C47-7B0D-B94E-245E-EF011B8A867C" referredColumn="B1D217E7-9702-3A3A-89DB-C87363F6FDA5"/>
+</associations>
+</Column>
+<Column name="translation_condition_ID" id="CA83FAE7-A212-D251-8A2F-EADBA3ED64F0">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D8C410E-D969-7F44-ADC7-D6531EFC9BDD" referredColumn="3A04CD25-4449-5F5C-3CAF-2F987BA81AA6"/>
+</associations>
+</Column>
+<Column name="function_id" id="550CAA0A-71C3-2DB9-5CE7-F8DAAB041203">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:31:09 UTC</createdTime>
+<generatorID>0868CCBE-F6B0-DD12-6E8A-A01FEE7D46F6</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1168EFCA-28E2-403E-143B-56082F724B0D</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1</endValue>
+<description>1 == true</description>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="7C523932-1FF0-CC63-44CF-02EBD375D692" referredColumn="64E05E8C-1054-CF3F-9DAD-5D24872B3162"/>
+</associations>
+</Column>
+<Column name="parameter_name" id="3737A5E4-85A0-69F6-195B-1C4CA7AE10B6">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:31:09 UTC</createdTime>
+<generatorID>61B5A565-A279-D9F0-4051-0C07CBFDE00A</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>79363959-220D-4476-4730-5544AA4BF81A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C523932-1FF0-CC63-44CF-02EBD375D692" referredColumn="00AAE4A7-E3D6-AECC-E68A-6EE350F220CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E674E7AF-3E6D-6A0C-088F-0F8AA6F2AC8B" name="runtime_values_PK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7FAA2305-22B3-EB1E-CFD0-2A7739B2C0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41D48495-FEB1-01AF-9DFC-AC0A76EF872E" name="runtime_values_FK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<generatorID>716CA762-55A6-C9FB-0397-3BA539535758</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="550CAA0A-71C3-2DB9-5CE7-F8DAAB041203"/>
+<colUsage columnID="3737A5E4-85A0-69F6-195B-1C4CA7AE10B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0C08932-133D-896E-6E5A-8A6265EFB892" name="runtime_values_FKv1">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<generatorID>B7CD1E84-F676-BAF5-7C97-B0FC300AB4E4</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="536E63A9-C1E1-0BA1-B1A3-2371B13842AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="000A5D88-56F7-8EFC-9334-9D6A06B8A101" name="runtime_values_FKv2">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<generatorID>FCE6FEC9-3F75-DB2B-3BC0-CC071E40E696</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA83FAE7-A212-D251-8A2F-EADBA3ED64F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

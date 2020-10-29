@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5A6D782-B948-AC9D-D3B8-00C8C027F211" name="translation_condition">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>6EAAB231-BC7A-12B9-5DA2-8F8EDF1E166B</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="translation_condition_ID" id="3A04CD25-4449-5F5C-3CAF-2F987BA81AA6">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="function_id" id="585D4F59-0F4F-78D6-96FE-D2C8F847825B">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:31:09 UTC</createdTime>
+<generatorID>907A1BD5-A26C-485F-C8BC-2F37E5D6CDDE</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1168EFCA-28E2-403E-143B-56082F724B0D</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1</endValue>
+<description>1 == true</description>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="3ED4D528-5DF7-CCAC-C11A-9EE58ED8D7E3" referredColumn="4C2636D0-3324-7A50-763A-2A86C1D576D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="242E209E-6476-B911-C0CB-96964AACAB12" name="translation_condition_PK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3A04CD25-4449-5F5C-3CAF-2F987BA81AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="628AF69A-2E4C-C7AE-E101-C7D8DB81AD0C" name="translation_condition_FK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<generatorID>9E14F631-F377-1FD0-EA21-37BE2B95ED26</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="585D4F59-0F4F-78D6-96FE-D2C8F847825B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

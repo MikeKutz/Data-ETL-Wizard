@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C103F38-AA06-8B0F-C4E0-B6647DB8D447" name="ETL Groups">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:33:13 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="group_id" id="A6CBBBAD-473B-792B-AE69-97598C4C99A4">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:33:26 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Group_name" id="1C73F8AC-78CF-7E10-840E-A372FE61A695">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:33:44 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<domain>84F850A3-1999-8268-00F1-D64E566D288F</domain>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B65AF09-6D98-06E4-7D66-C7E8EEF7E537" name="ETL Groups PK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:33:42 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6CBBBAD-473B-792B-AE69-97598C4C99A4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0597D699-0A99-494B-83E3-C17A87376A92" name="ETL_Groups_uq1">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-27 10:58:48 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<engineerTo>
+<item key="E92A0A47-383A-C9DE-4818-B7F0939EA3D4" value="true"/>
+</engineerTo>
+<newElementsIDs>1C73F8AC-78CF-7E10-840E-A372FE61A695</newElementsIDs>
+<usedAttributes>
+<attributeRef>1C73F8AC-78CF-7E10-840E-A372FE61A695</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

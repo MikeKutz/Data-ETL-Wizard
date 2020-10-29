@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="ETL_WIZARD$SYS" directorySegmentName="seg_0" id="57AEED9A-6955-69E1-2ED6-5DCC7B637D1D">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:06:50 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<ordsAlias>schema_2</ordsAlias>
+</SchemaObject>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="0074EB6E-F058-9DE3-038A-C92FB87B02EC" name="FKArc_4">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>F9B6B363-08DC-8CC5-8236-392AB2B86A7D</table>
+<fkeys>
+<fkeyID>D5692A85-F144-80DC-1ED8-05DC49E1C0E5</fkeyID>
+<fkeyID>FA67C542-A21E-514F-3DDB-3FBD126E8DAA</fkeyID>
+<fkeyID>FC56238F-7959-933C-47F8-962563F7E66F</fkeyID>
+</fkeys>
+</FKArc>

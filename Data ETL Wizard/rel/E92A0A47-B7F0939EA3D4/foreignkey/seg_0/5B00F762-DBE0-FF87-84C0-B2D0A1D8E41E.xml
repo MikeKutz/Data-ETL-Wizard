@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B00F762-DBE0-FF87-84C0-B2D0A1D8E41E" containerWithKeyObject="17826D66-ADB7-EFE4-8392-D5CD0E63E7D2" localFKIndex="424718B8-FC6C-DDE2-3738-680898CEF899" name="ETL_Table_columns_FK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:45 UTC</createdTime>
+<generatorID>3ECD36EB-EBE0-92F4-3EAC-3591F474D8EF</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<referredTableLongName>ETL_Tables</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F9B6B363-08DC-8CC5-8236-392AB2B86A7D</referredTableID>
+<keyObject>EDFC0D94-060B-3FC3-AA29-9D07576B6582</keyObject>
+<referredKeyID>EDFC0D94-060B-3FC3-AA29-9D07576B6582</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ETL_Tables_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

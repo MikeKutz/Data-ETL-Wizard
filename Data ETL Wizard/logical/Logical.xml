@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="16E06D34-2C2C-8888-61FD-5163C4BB39E5" mainViewID="679FAE68-C9C1-7A3D-5C76-2CAAAE4E4CB5">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-26 13:28:04 UTC</createdTime>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

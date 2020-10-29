@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1F2F109-F9EC-4069-F539-B631546C75D8" name="ETL_Groups">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>0C103F38-AA06-8B0F-C4E0-B6647DB8D447</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="group_id" id="28FA76FA-2F98-62FE-0B82-632A4790F031">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>A6CBBBAD-473B-792B-AE69-97598C4C99A4</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Group_name" id="1F52F4E0-6602-AFF3-49BC-030593508FB9">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>1C73F8AC-78CF-7E10-840E-A372FE61A695</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<domain>84F850A3-1999-8268-00F1-D64E566D288F</domain>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51C9140E-4B16-DC5D-B9FD-938A317B3882" name="ETL_Groups_PK">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>4B65AF09-6D98-06E4-7D66-C7E8EEF7E537</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FA76FA-2F98-62FE-0B82-632A4790F031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6100E3B2-AC37-A797-809A-E5DD8F628CAF" name="ETL_Groups_UQ">
+<createdBy>mkutz</createdBy>
+<createdTime>2020-10-28 16:23:44 UTC</createdTime>
+<generatorID>0597D699-0A99-494B-83E3-C17A87376A92</generatorID>
+<ownerDesignName>Data ETL Wizard</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F52F4E0-6602-AFF3-49BC-030593508FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
